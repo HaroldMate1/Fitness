@@ -163,7 +163,7 @@ nico_tips = """
  </ul>
  """
 
- kiara_routine = pd.DataFrame({
+kiara_routine = pd.DataFrame({
      "Day": [
          "Day 1",
          "Day 2",
