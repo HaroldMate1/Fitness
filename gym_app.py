@@ -454,8 +454,6 @@ Original file is located at
 #
 
 
-!streamlit run app.py &>/dev/null &
-
 from pyngrok import ngrok
 
 # Open a public URL for Streamlit app running on port 8501
