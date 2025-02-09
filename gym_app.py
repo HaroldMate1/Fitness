@@ -411,11 +411,11 @@ elif app_mode == "Gym Progress":
          else:
              st.info("No progress data yet. Add your first entry above!")
  
- st.markdown("</div>", unsafe_allow_html=True)
+st.markdown("</div>", unsafe_allow_html=True)
  
 
- st.markdown("<h3 style='text-align: center;'>Stay Consistent & Enjoy Your Workouts! 💪🔥</h3>", unsafe_allow_html=True)
- st.markdown("<h4 style='text-align: center;'>Developed by Mateo M. with ☕</h4>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center;'>Stay Consistent & Enjoy Your Workouts! 💪🔥</h3>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center;'>Developed by Mateo M. with ☕</h4>", unsafe_allow_html=True)
  
 
 
