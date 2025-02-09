@@ -106,7 +106,7 @@ def calculate_macros(weight, height, age, gender, activity_level, goal):
      carbs = (tdee * 0.45) / 4
      return tdee, protein, fats, carbs
  
- def df_to_html_table(df):
+def df_to_html_table(df):
      return df.to_html(index=False, escape=False)
  
 
