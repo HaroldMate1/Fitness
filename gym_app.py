@@ -162,7 +162,7 @@ nico_tips = """
  <li><strong>Rest Days:</strong> Incorporate rest or active recovery (light cardio, mobility) as needed.</li>
  </ul>
  """
---
+
  kiara_routine = pd.DataFrame({
      "Day": [
          "Day 1",
