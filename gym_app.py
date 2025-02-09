@@ -212,7 +212,7 @@ kiara_tips = """
  </ul>
  """
 
- if "progress_data" not in st.session_state:
+if "progress_data" not in st.session_state:
      st.session_state.progress_data = {
          "Nico": [],
          "Kiara": []
@@ -226,7 +226,7 @@ kiara_tips = """
  app_mode = st.sidebar.radio("Choose a section", ["Workout Routines", "Calorie & Macro Calculator", "Gym Progress"])
  
 
- if app_mode == "Workout Routines":
+if app_mode == "Workout Routines":
      name = st.selectbox("Select Your Name:", ["Select", "Nico", "Kiara"])
      if name == "Nico":
          st.markdown("<h2>💪 Nico's 5-Day Routine</h2>", unsafe_allow_html=True)
