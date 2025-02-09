@@ -1,3 +1,7 @@
+import streamlit as st
+import pandas as pd
+import altair as alt
+
 # -*- coding: utf-8 -*-
 """Gym App.ipynb
 
@@ -449,7 +453,7 @@ Original file is located at
 # # Footer
 # # ------------------------------------------------------------------
 # st.markdown("<h3 style='text-align: center;'>Stay Consistent & Enjoy Your Workouts! 💪🔥</h3>", unsafe_allow_html=True)
-# st.markdown("<h4 style='text-align: center;'>Developed by Mateo M. with ♥ & ☕</h4>", unsafe_allow_html=True)
+# st.markdown("<h4 style='text-align: center;'>Developed by Mateo M. with ☕</h4>", unsafe_allow_html=True)
 # 
 
 
