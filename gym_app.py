@@ -453,7 +453,6 @@ Original file is located at
 # 
 #
 
-!pkill -9 streamlit
 !pkill -9 ngrok
 
 !streamlit run app.py &>/dev/null &
