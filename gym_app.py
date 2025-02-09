@@ -110,7 +110,7 @@ def df_to_html_table(df):
      return df.to_html(index=False, escape=False)
  
 
- nico_routine = pd.DataFrame({
+nico_routine = pd.DataFrame({
      "Day": [
          "Day 1: Chest + Triceps + Abs",
          "Day 2: Back + Biceps + Abs",
