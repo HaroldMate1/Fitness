@@ -202,7 +202,8 @@ kiara_routine = pd.DataFrame({
          "5–10 min static stretching: quads, hamstrings, glutes, calves, lower back"
      ]
  })
- kiara_tips = """
+
+kiara_tips = """
  <ul>
  <li><strong>Zero-Weight Warm-Up:</strong> Empty bar or light dumbbells to refine technique.</li>
  <li><strong>Pyramidal Progression:</strong> Increase weight each set while lowering reps (12,10,8,6).</li>
