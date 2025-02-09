@@ -81,9 +81,7 @@ st.markdown(
      unsafe_allow_html=True
  )
  
- # ------------------------------------------------------------------
- # Helper Functions
- # ------------------------------------------------------------------
+
  def calculate_macros(weight, height, age, gender, activity_level, goal):
      if gender == 'Male':
          bmr = 10 * weight + 6.25 * height - 5 * age + 5
