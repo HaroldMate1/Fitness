@@ -153,7 +153,8 @@ nico_routine = pd.DataFrame({
          "5–10 min of static stretching focusing on chest, biceps, shoulders, and lower back"
      ]
  })
- nico_tips = """
+
+nico_tips = """
  <ul>
  <li><strong>Time Management:</strong> Aim for ~1 hour per session (5–10 min Warm-Up, ~40–45 min Exercises, 5–10 min Cool Down).</li>
  <li><strong>Progressive Overload:</strong> Increase weight gradually while maintaining proper form.</li>
