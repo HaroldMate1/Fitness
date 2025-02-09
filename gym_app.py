@@ -316,7 +316,7 @@ elif app_mode == "Calorie & Macro Calculator":
          st.markdown(f"<p><strong>Carbs:</strong> {carbs:.0f} g/day</p>", unsafe_allow_html=True)
  
 
- elif app_mode == "Gym Progress":
+elif app_mode == "Gym Progress":
      st.markdown("<h2>📈 Gym Progress</h2>", unsafe_allow_html=True)
      st.markdown(
          """
