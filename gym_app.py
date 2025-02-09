@@ -219,11 +219,11 @@ if "progress_data" not in st.session_state:
      }
  
 
- st.markdown("<div class='container'>", unsafe_allow_html=True)
- st.markdown("<h1>🏋️ Personalized Workout & Nutrition App</h1>", unsafe_allow_html=True)
+st.markdown("<div class='container'>", unsafe_allow_html=True)
+st.markdown("<h1>🏋️ Personalized Workout & Nutrition App</h1>", unsafe_allow_html=True)
  
- st.sidebar.header("Navigation")
- app_mode = st.sidebar.radio("Choose a section", ["Workout Routines", "Calorie & Macro Calculator", "Gym Progress"])
+st.sidebar.header("Navigation")
+app_mode = st.sidebar.radio("Choose a section", ["Workout Routines", "Calorie & Macro Calculator", "Gym Progress"])
  
 
 if app_mode == "Workout Routines":
