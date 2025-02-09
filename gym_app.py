@@ -269,7 +269,7 @@ if app_mode == "Workout Routines":
          st.markdown(kiara_tips, unsafe_allow_html=True)
  
 
- elif app_mode == "Calorie & Macro Calculator":
+elif app_mode == "Calorie & Macro Calculator":
      st.markdown("<h2>🍽️ Calculate Your Daily Caloric & Macro Needs</h2>", unsafe_allow_html=True)
      st.markdown(
          """
