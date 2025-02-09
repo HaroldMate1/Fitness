@@ -390,7 +390,7 @@ elif app_mode == "Gym Progress":
              st.altair_chart(chart_fat, use_container_width=True)
  
              
-            st.markdown(f"<h4>Estimated Muscle Mass Over Time (kg)</h4>", unsafe_allow_html=True)
+st.markdown(f"<h4>Estimated Muscle Mass Over Time (kg)</h4>", unsafe_allow_html=True)
              chart_muscle = (
                  alt.Chart(df_progress)
                  .mark_line(point=True)
