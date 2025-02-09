@@ -454,8 +454,6 @@ Original file is located at
 #
 
 
-from pyngrok import ngrok
-
 # Open a public URL for Streamlit app running on port 8501
 public_url = ngrok.connect(8501, "http")
 print(f"🚀 Click here to access the app: {public_url}")
