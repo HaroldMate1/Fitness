@@ -451,16 +451,6 @@ Original file is located at
 # st.markdown("<h3 style='text-align: center;'>Stay Consistent & Enjoy Your Workouts! 💪🔥</h3>", unsafe_allow_html=True)
 # st.markdown("<h4 style='text-align: center;'>Developed by Mateo M. with ♥ & ☕</h4>", unsafe_allow_html=True)
 # 
-#
 
 
-# Open a public URL for Streamlit app running on port 8501
-public_url = ngrok.connect(8501, "http")
-print(f"🚀 Click here to access the app: {public_url}")
 
-from google.colab import output
-import time
-
-while True:
-    output.eval_js('document.title="Keep Colab Alive 🔄";')
-    time.sleep(60)
